@@ -39,6 +39,7 @@ DIABETES DATA ANALYSIS PROJECT/
 │
 ├── DA_Final_Project.ipynb
 ├── diabetes_dataset.csv
+└── insights.ipynb
 └── README.md
 ```
 
