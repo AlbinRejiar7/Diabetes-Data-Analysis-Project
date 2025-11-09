@@ -11,13 +11,35 @@ The analysis includes **data cleaning, exploration, and visualization** to ident
 DIABETES DATA ANALYSIS PROJECT/
 │
 ├── data/
-│   ├── raw/
-│   │   └── diabetes_dataset.csv
-│   └── cleaned/
-│       └── diabetes_dataset_cleaned.csv
+│ ├── raw/
+│ │ └── diabetes_dataset.csv
+│ └── cleaned/
+│ └── diabetes_dataset_cleaned.csv
 │
-├── DA_Final_Project.ipynb       # Jupyter Notebook for analysis
-└── diabetes_dataset.csv          # Local copy of dataset
+├── visualizations/
+│ ├── univariate/
+│ │ ├── age_distribution.png
+│ │ ├── Blood Glucose Level Distribution.png
+│ │ ├── BMI Distribution.png
+│ │ ├── gender_distribution.png
+│ │ ├── heart_disease_distribution.png
+│ │ ├── hyper_tension_distribution.png
+│ │ └── smoking_distribution.png
+│ │
+│ ├── bivariate/
+│ │ ├── Age vs Diabetes.png
+│ │ ├── BMI vs Diabetes.png
+│ │ └── Hypertension vs Diabetes & Heart Disease.png
+│ │
+│ └── multivariate/
+│ ├── Combined Effect Age, BMI, and BP on Diabetes.png
+│ ├── Correlation Heatmap of Numerical Features.png
+│ ├── Diabetes Count by Race.png
+│ └── pair_plot.png
+│
+├── DA_Final_Project.ipynb
+├── diabetes_dataset.csv
+└── README.md
 ```
 
 ---
